@@ -33,22 +33,30 @@ nav ul li a{
     font-size: 40px;
     letter-spacing: 1px;
 }
+/* hero content style */
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+h4{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+
 h1{
     color: white;
     font-size: 75px;
     margin: 20px 0px 20px;
-    
+
 }
 h3{
 color: white;
-font-size: 25px;
+font-size: 30px;
 margin-bottom: 50px;
 
-}
-h4{
-    color: #fcfc;
-    letter-spacing: 2px;
-    font-size: 20px;
 }
 
 body {
@@ -58,3 +66,127 @@ body {
     letter-spacing: 2px;
 
   }
+  .about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #000;
+  }
+.about img{
+ height: auto;
+ width: 430px;
+}
+
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h2{
+    color: white;
+    font-size: 65px;
+    margin-bottom: 20px;
+}
+
+.about-text h5{
+    color: white;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+    font-size: 22px;
+}
+.about-text p{
+    color: #fcfc;
+    letter-spacing: 1px;
+    line-height: 28px;
+    width: 430px;
+    margin-bottom: 45px;
+    font-size: 18px;
+}
+button{
+    background: red;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: transform 0.4s;
+}
+/*  project section style */
+.projects{
+    width: 100%;
+    padding: 100px 0px;
+    background: black;
+}
+
+.title h2{
+    color: white;
+    text-align: center;
+    font-size: 75px;
+    margin: 30px auto;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #191919;
+    margin: 15px;
+    border-radius: 20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card i{
+    font-size: 50px;
+    display: block;
+    margin: 25px 0px;
+    color: red;
+}
+
+.card h5{
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+
+}
+.paragraph p{
+    color: white;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+footer{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+footer p:first-child{
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+footer p:nth-child(2){
+    font-size: 17px;
+    color: white;
+    text-align: center;
+    width: 500px;
+    line-height: 26px;
+}
